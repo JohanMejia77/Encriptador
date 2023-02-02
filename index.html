@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section class="section_1">
+            <h1>Encriptador De Texto</h1>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su texto aquí" class="text"></textarea>
+            <p><span class="material-symbols-rounded">
+                error
+                </span>Solo letras minúsculas y sin acentos</p>
+            <div class="buttons">
+                <input type="button" value="Encriptar" class="button_1" onclick="encriptar()">
+                <input type="button" value="Desencriptar" class="button_2" onclick="desencriptar()">
+            </div>
+        </section>
+        <section class="section_2">
+            <div class="no_text">
+                <h2 class="nothing_message">Ningún mensaje fue encontrado</h2>
+                <p class="enter_text">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <div class="answer">
+                    <textarea class="message"></textarea>
+                    <input type="button" value="Copiar" class="btn_copy" onclick="copiar()">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/main.js"></script>
+</body>
+</html>
