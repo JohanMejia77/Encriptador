@@ -39,7 +39,7 @@ function copiar(){
 
     document.querySelector(".nothing_message").style.display = "block";
     document.querySelector(".enter_text").style.display = "block";
-    document.querySelector(".no_text").style.backgroundImage = "url(Muñeco.png)";
+    document.querySelector(".no_text").style.backgroundImage = "url(image.png)";
     document.querySelector(".no_text").style.padding = "85px 15px";
 
     document.querySelector(".answer").style.display = "none"; 
