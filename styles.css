@@ -176,4 +176,8 @@ main{
         background-position: center;
         justify-content: space-between;
     }
+    .message{
+        max-height: 70%;
+        min-height: 70%;
+    }
 }
