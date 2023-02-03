@@ -114,8 +114,8 @@ main{
     padding: 15px;
     max-width: 100%;
     min-width: 100%;
-    max-height: 90%;
-    min-height: 90%;
+    max-height: 70%;
+    min-height: 70%;
     background-color: rgb(255, 123, 47);
     font-size: 1.2rem;
     resize: none;
@@ -177,7 +177,7 @@ main{
         justify-content: space-between;
     }
     .message{
-        max-height: 70%;
-        min-height: 70%;
+        max-height: 90%;
+        min-height: 90%;
     }
 }
